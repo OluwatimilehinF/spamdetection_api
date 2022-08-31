@@ -14,7 +14,7 @@ class Email(BaseModel):
     class Config:
         schema_extra = {
             "example": {
-                "email": "this is a test email"}
+                "email": "This is a test email"}
         }
 
 
